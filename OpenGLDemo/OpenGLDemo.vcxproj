@@ -108,6 +108,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -133,12 +134,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="glad.c" />
+    <ClCompile Include="MyOpenGL\MaterialsDemo.cpp" />
+    <ClCompile Include="MyOpenGL\MaterialsDemo.h" />
     <ClCompile Include="NormalLight.cpp" />
     <ClCompile Include="stb_image.cpp" />
     <ClCompile Include="Test.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyOpenGL\camera.h" />
+    <ClInclude Include="MyOpenGL\IDemo.h" />
     <ClInclude Include="MyOpenGL\shader_m.h" />
   </ItemGroup>
   <ItemGroup>

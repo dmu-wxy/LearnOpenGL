@@ -27,12 +27,21 @@
     <ClCompile Include="glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="MyOpenGL\MaterialsDemo.h">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MyOpenGL\MaterialsDemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyOpenGL\shader_m.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="MyOpenGL\camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyOpenGL\IDemo.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

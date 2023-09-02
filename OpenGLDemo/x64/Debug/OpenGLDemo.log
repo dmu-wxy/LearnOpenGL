@@ -1,0 +1,17 @@
+﻿  NormalLight.cpp
+D:\Project\vsProject\OpenGLDemo\OpenGLDemo\NormalLight.cpp(187,27): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+D:\Project\vsProject\OpenGLDemo\OpenGLDemo\NormalLight.cpp(188,27): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+D:\Project\vsProject\OpenGLDemo\OpenGLDemo\NormalLight.cpp(189,27): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
+          with
+          [
+              T=float
+          ]
+  OpenGLDemo.vcxproj -> D:\Project\vsProject\OpenGLDemo\x64\Debug\OpenGLDemo.exe

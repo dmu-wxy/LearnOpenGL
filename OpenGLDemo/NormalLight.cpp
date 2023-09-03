@@ -1,4 +1,4 @@
-#include "MyOpenGL/MaterialsDemo.h"
+#include "MyOpenGL/LightingMap.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void mouse_callback(GLFWwindow* window, double xpos, double ypos);
@@ -64,7 +64,7 @@ int main()
     // -----------------------------
     glEnable(GL_DEPTH_TEST);
 
-    IDemo *demo = new MaterialsDemo(SCR_WIDTH, SCR_HEIGHT);
+    IDemo *demo = new LightingMap(SCR_WIDTH, SCR_HEIGHT);
     demo->init();
 
     // render loop

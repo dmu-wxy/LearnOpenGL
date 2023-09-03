@@ -8,6 +8,7 @@
 #include <GLFW/glfw3.h>
 #include <iostream>
 
+#include "stb_image.h"
 #include "shader_m.h"
 #include "camera.h"
 

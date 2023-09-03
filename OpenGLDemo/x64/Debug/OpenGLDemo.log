@@ -1,22 +1,4 @@
-﻿  MaterialsDemo.cpp
-D:\Project\vsProject\OpenGLDemo\OpenGLDemo\MyOpenGL\MaterialsDemo.cpp(109,23): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
-          with
-          [
-              T=float
-          ]
-D:\Project\vsProject\OpenGLDemo\OpenGLDemo\MyOpenGL\MaterialsDemo.cpp(110,23): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
-          with
-          [
-              T=float
-          ]
-D:\Project\vsProject\OpenGLDemo\OpenGLDemo\MyOpenGL\MaterialsDemo.cpp(111,23): warning C4244: “=”: 从“double”转换到“T”，可能丢失数据
-          with
-          [
-              T=float
-          ]
-  MaterialsDemo.h
-  NormalLight.cpp
-  正在生成代码...
+﻿  LightingMap.cpp
 x64\Debug\MaterialsDemo.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
 LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
   OpenGLDemo.vcxproj -> D:\Project\vsProject\OpenGLDemo\x64\Debug\OpenGLDemo.exe

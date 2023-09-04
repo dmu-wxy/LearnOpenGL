@@ -134,9 +134,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="glad.c" />
+    <ClCompile Include="MyOpenGL\LightCasters.cpp" />
     <ClCompile Include="MyOpenGL\LightingMap.cpp" />
     <ClCompile Include="MyOpenGL\MaterialsDemo.cpp" />
     <ClCompile Include="MyOpenGL\MaterialsDemo.h" />
+    <ClCompile Include="MyOpenGL\utils\TextureUtils.h" />
     <ClCompile Include="NormalLight.cpp" />
     <ClCompile Include="stb_image.cpp" />
     <ClCompile Include="Test.cpp" />
@@ -144,6 +146,7 @@
   <ItemGroup>
     <ClInclude Include="MyOpenGL\camera.h" />
     <ClInclude Include="MyOpenGL\IDemo.h" />
+    <ClInclude Include="MyOpenGL\LightCasters.h" />
     <ClInclude Include="MyOpenGL\LightingMap.h" />
     <ClInclude Include="MyOpenGL\shader_m.h" />
   </ItemGroup>
@@ -160,6 +163,7 @@
     <None Include="2.2.light_cube.fs" />
     <None Include="2.2.light_cube.vs" />
     <None Include="2.4.basic_lighting.fs" />
+    <None Include="2.5.basic_lighting.fs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

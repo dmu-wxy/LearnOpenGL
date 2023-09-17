@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Test.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="stb_image.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -42,6 +39,9 @@
     <ClCompile Include="MyOpenGL\utils\TextureUtils.h">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="MyOpenGL\MultipleLight.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyOpenGL\shader_m.h">
@@ -57,6 +57,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="MyOpenGL\LightCasters.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MyOpenGL\MultipleLight.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -84,5 +87,6 @@
     <None Include="2.2.light_cube.fs" />
     <None Include="2.4.basic_lighting.fs" />
     <None Include="2.5.basic_lighting.fs" />
+    <None Include="2.6.basic_lighting.fs" />
   </ItemGroup>
 </Project>

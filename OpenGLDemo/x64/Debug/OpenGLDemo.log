@@ -1,4 +1,2 @@
-﻿  LightCasters.cpp
-x64\Debug\MaterialsDemo.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
-LINK : warning LNK4098: 默认库“MSVCRT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+﻿  MultipleLight.cpp
   OpenGLDemo.vcxproj -> D:\Project\vsProject\OpenGLDemo\x64\Debug\OpenGLDemo.exe

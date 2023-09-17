@@ -1,4 +1,4 @@
-#include "MyOpenGL/LightCasters.h"
+#include "MyOpenGL/MultipleLight.h"
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void mouse_callback(GLFWwindow* window, double xpos, double ypos);
@@ -64,7 +64,7 @@ int main()
     // -----------------------------
     glEnable(GL_DEPTH_TEST);
 
-    IDemo *demo = new LightCasters(SCR_WIDTH, SCR_HEIGHT);
+    IDemo *demo = new MultipleLight(SCR_WIDTH, SCR_HEIGHT);
     demo->init();
 
     // render loop
